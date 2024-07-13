@@ -58,3 +58,8 @@ So, nodejs can handle lots of concurrent users but bottle neck is due to databas
 
 So, in the end the total number of successful write was about 2400 which means a throughput of 40 (as expected)
 and the total number of reads was 105850 which means an throughput of 1764 (not bad, but we need to achieve 8000)
+
+## Making it highly scalable
+Making the simple tiny url highly scalable, available and reliable using docker, redis, zookeeper, kubernetes, cassandra, gRPC [yes, let's throw everything we know at it! why not?].  
+
+Coming soon!
